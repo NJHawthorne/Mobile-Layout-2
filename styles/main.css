@@ -65,3 +65,22 @@
 	padding-top: 1em;
 	margin: 10em auto 0 auto;
 }
+.directory {
+	background-color: #000;
+	color: #fff;
+	font-weight: bold;
+	padding: 2em 0;
+	text-align: center;
+}
+.directoryLinkBox {
+	margin: 1em auto;
+}
+.directoryLink {
+	margin: 0 1em;
+}
+.directoryWhiteBox {
+	background-color: #fff;
+	height: 2em;
+	width: 10em;
+	margin: 2em auto;
+}
