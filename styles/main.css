@@ -1,5 +1,6 @@
 .topmostNavyBox {
 	background-color: #344051;
+	padding-bottom: 1em;
 }
 .topmostCyanBox {
 	background-color: #118BC0;
@@ -22,12 +23,24 @@
 	width: 18em;
 	height: 4em;
 	padding-top: 1em;
-	margin: .5em auto;
+	margin: 2em auto;
 	border: 1em solid #212934;
 }
 .tinyWhiteLine {
-
+	height: 1.5em;
+	width: 4em;
+	margin: 15em auto 10em auto;
+	background-color: #fff;
 }
 .whiteBox {
-
+	background-color: #fff;
+	width: 48em;
+	height: 5em;
+	margin: 2em auto;
+}
+.whiteBottomBox {
+	background-color: #fff;
+	width: 48em;
+	height: 5em;
+	margin: 2em auto 5em auto;
 }
