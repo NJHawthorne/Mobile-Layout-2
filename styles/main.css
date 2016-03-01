@@ -63,6 +63,20 @@
 	height: 5em;
 	margin: 2em auto;
 }
+.biggerContentMarker {
+	background-color: #616E7F;
+	height: 4em;
+	width: 40.5em;
+	position: relative;
+	left: 7em;
+}
+.contentMarker {
+	background-color: #616E7F;
+	height: 4em;
+	width: 6em;
+	position: relative;
+	bottom: 3em;
+}
 .whiteBottomBox {
 	background-color: #fff;
 	width: 48em;
