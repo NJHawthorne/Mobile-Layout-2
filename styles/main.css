@@ -106,8 +106,14 @@
 }
 .bodyContent {
 	background-color: #E8F0F5;
-	padding-top: 15em;
+	padding-top: 1em;
 	padding-bottom: 2em;
+}
+.wordpressOverview{
+	color: #344051;
+	text-align: center;
+	font-size: 3.3rem;
+
 }
 .contentBackground {
 	background-color: #D1D3D7;
@@ -115,28 +121,40 @@
 }
 .informationPanel {
 	background-color: #fff;
-	height: 20em;
 	margin: 2.5em 1em;
 }
 .informationIcon {
 	background-color: #C7D2D8;
-	margin: 2em auto;
+	margin: 4em auto 2em auto;
 	height: 5em;
 	width: 5em;
 	position: relative;
 	top: 3em;
 }
 .informationTitle {
-	background-color: #C7D2D8;
 	margin: 4em auto;
-	height: 1.5em;
 	width: 40em;
 }
+.informationTitle > p {
+	color: #3A658D;
+	font-size: 2rem;
+	text-align: center;
+}
 .informationDesc {
-	background-color: #C7D2D8;
-	height: 6em;
 	width: 40em;
-	margin: -3em auto;
+	margin: -3em auto 3em auto;
+	padding-bottom: 3em;
+}
+.informationDesc > article {
+	color: #444;
+	font-size: 1.5rem;
+	text-align: center;
+	padding-top: 0.5em;
+}
+.wordpressPower {
+	font-size: 3.3rem;
+	color: #344051;
+	text-align: center;
 }
 .lowerBlueButton {
 	background-color: #1E8CBE;
