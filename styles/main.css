@@ -11,17 +11,26 @@
 .smallIcon {
 	background-color: #fff;
 	height: 4em;
-	width: 5em;
+	width: 4em;
 	margin-left: 3em;
 	margin-right: auto;
 }
-.siteTitle {
-	background-color: #fff;
+.siteTitleBox {
 	height: 4em;
 	width: 18em;
-	margin-left: 13em;
+	margin-left: 10em;
 	margin-right: auto;
 	margin-top: -4em;
+}
+.siteTitle {
+	color: #fff;
+	font-size: 2em;
+	text-align: left;
+	padding: 0.4em 0;
+}
+.mainSiteURL {
+	text-decoration: none;
+	color: #94CBE1;
 }
 .loginButton {
 	background-color: #0070A4;
@@ -30,6 +39,12 @@
 	float: right;
 	margin-top: -5em;
 	margin-right: -1em;
+}
+.loginButtonText {
+	color: #fff;
+	text-align: center;
+	font-size: 1.5em;
+	padding: 1.5em 0;
 }
 .welcomeText {
 	margin: 4em auto 0 auto;
@@ -49,6 +64,12 @@
 	height: 5em;
 	margin: 4em auto;
 	border: 1em solid #212934;
+}
+.createWebsite {
+	color: #fff;
+	text-align: center;
+	padding: 0.7em 0;
+	font-size: 2em;
 }
 .tinyWhiteLine {
 	height: 1.5em;
