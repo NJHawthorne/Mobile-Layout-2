@@ -34,11 +34,11 @@
 }
 .loginButton {
 	background-color: #0070A4;
-	height: 6em;
-	width: 10em;
 	float: right;
 	margin-top: -5em;
 	margin-right: -1em;
+	height: 6em;
+	width: 10em;
 }
 .loginButtonText {
 	color: #fff;
@@ -78,30 +78,31 @@
 	background-color: #fff;
 }
 .whiteBox {
-	background-color: #fff;
-	width: 48em;
+	width: 27.5em;
 	height: 5em;
-	margin: 2em auto;
+	margin: 4em auto;
 }
 .biggerContentMarker {
-	background-color: #616E7F;
-	height: 4em;
-	width: 40.5em;
-	position: relative;
-	left: 7em;
+	width: 22.5em;
+	float: right;
+}
+.biggerContentMarker > h2 {
+	color: #fff;
+}
+.biggerContentMarker > h3 {
+	color: #9CA7AD;
 }
 .contentMarker {
-	background-color: #616E7F;
-	height: 4em;
-	width: 6em;
-	position: relative;
-	bottom: 3em;
+	background-color: #fff;
+	height: 6em;
+	width: 4em;
+	float: left;
+	margin-top: 1em;
 }
 .whiteBottomBox {
-	background-color: #fff;
-	width: 48em;
+	width: 27.5em;
 	height: 5em;
-	margin: 2em auto 5em auto;
+	margin: 2em auto 10em auto;
 }
 .bodyContent {
 	background-color: #E8F0F5;
