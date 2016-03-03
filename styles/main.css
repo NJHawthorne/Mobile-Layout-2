@@ -6,8 +6,6 @@
 	background-color: #118BC0;
 	padding: 1em;
 }
-.navBarContent {
-}
 .smallIcon {
 	margin-left: 2em;
 	margin-right: auto;
@@ -98,11 +96,19 @@
 	color: #9CA7AD;
 }
 .contentMarker {
-	background-color: #fff;
-	height: 6em;
-	width: 4em;
+	width: 0;
 	float: left;
 	margin-top: 1em;
+	color: #fff;
+}
+#mobileMarker {
+	margin-left: -0.6em;
+}
+#newspaperMarker {
+	margin-left: -2em;
+}
+#paintbrushMarker {
+	margin-left: -1.5em;
 }
 .whiteBottomBox {
 	width: 27.5em;
@@ -133,8 +139,31 @@
 	margin: 4em auto 2em auto;
 	height: 5em;
 	width: 5em;
+	border-radius: 2.5em;
 	position: relative;
 	top: 3em;
+}
+.fa-3x {
+	text-align: center;
+	color: #3A658D;
+}
+.fa-lightbulb-o {
+	padding: 0.3em 26px;
+}
+.fa-cloud {
+	margin: 0.3em;
+}
+.fa-code {
+	margin: 0.3em;
+}
+.fa-comments {
+	margin: 0.3em;
+}
+.fa-gift {
+	padding: 0.3em 19px;
+}
+.fa-globe {
+	padding: 0.3em 19px;
 }
 .informationTitle {
 	margin: 4em auto;
