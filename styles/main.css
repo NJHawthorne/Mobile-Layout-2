@@ -52,6 +52,13 @@
 .wordPressText {
 	color: #fff;
 	text-align: center;
+	font-weight: 400;
+}
+h3.wordPressText {
+
+}
+h4.wordPressText {
+
 }
 .siteDescription {
 	margin: 0 auto;
@@ -124,8 +131,11 @@
 .wordpressOverview{
 	color: #344051;
 	text-align: center;
-	font-size: 3.3rem;
-
+}
+.wordpressOverview > h2 {
+	margin: 1em;
+	font-weight: 400;
+	line-height: 2em;
 }
 .contentBackground {
 	background-color: #D1D3D7;
@@ -192,7 +202,7 @@
 .lowerBlueButton {
 	background-color: #1E8CBE;
 	width: 18em;
-	margin: 10em auto 0 auto;
+	margin: 5em auto 0 auto;
 }
 .directory {
 	background-color: #000;
